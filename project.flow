@@ -1,0 +1,33 @@
+{
+  luxe:{
+    window: {
+      width: 1280,
+      height: 700,
+      title:'course',
+      fullscreen:false,
+      resizable:true,
+      borderless:false
+    }
+  },
+
+  project : {
+    name : 'course',
+    version : '0.0.1',
+    author : 'course',
+
+    app : {
+      name : 'luxe_empty',
+      package : 'com.Rich Searle.course'
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+      }
+    },
+
+    files : {
+      assets : 'assets/'
+    }
+  }
+}
