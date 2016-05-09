@@ -29,12 +29,12 @@
         name : 'post-shell-hook',
         desc : 'just runs post-hook.sh and logs the output to the logs folder.',
         script : 'hooks/post-hook.js',
-      },
-      pre : {
-        name : 'pre-shell-hook',
-        desc : 'just runs pre-hook.sh and logs the output to the logs folder.',
-        script : 'hooks/pre-hook.js',
-      }
+      }//,
+      // pre : {
+      //   name : 'pre-shell-hook',
+      //   desc : 'just runs pre-hook.sh and logs the output to the logs folder.',
+      //   script : 'hooks/pre-hook.js',
+      // }
 
     },
 
