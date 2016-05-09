@@ -5,7 +5,6 @@ import luxe.Sprite;
 import luxe.Color;
 import luxe.Vector;
 import phoenix.Texture;
-import components.*;
 
 
 class PlayState extends State {
@@ -39,7 +38,7 @@ class PlayState extends State {
         }); //
 
         //add a component to an entity
-        entity.add(new DisplayComponent({name:'name'}));
+        entity.add(new components.Component({name:'name'}));
 
 
     } //onenter

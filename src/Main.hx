@@ -10,7 +10,7 @@ class Main extends luxe.Game {
 
 	public static var machine : States;
 
-	override function config( config:luxe.AppConfig ) {
+	override function config( config:luxe.GameConfig ) {
 
 	    //config.preload.textures.push({ id:'assets/image.png' });
 	    //config.preload.texts.push({ id:'assets/text.json' });

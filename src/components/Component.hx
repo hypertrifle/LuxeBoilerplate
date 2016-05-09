@@ -1,11 +1,11 @@
 package components;
 
-import luxe.Component;
 
-class DisplayComponent extends Component {
+class Component extends luxe.Component {
 
     override function init() {
         //called when initialising the component
+        trace("component init");
     }
 
     override function update(dt:Float) {
