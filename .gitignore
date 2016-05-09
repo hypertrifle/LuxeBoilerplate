@@ -1,1 +1,4 @@
 bin
+android.project
+.DS_Store
+logs/*.log

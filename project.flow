@@ -3,7 +3,7 @@
     window: {
       width: 1280,
       height: 700,
-      title:'course',
+      title:'____',
       fullscreen:false,
       resizable:true,
       borderless:false
@@ -11,19 +11,31 @@
   },
 
   project : {
-    name : 'course',
+    name : '____',
     version : '0.0.1',
-    author : 'course',
+    author : 'Richard Searle',
 
     app : {
-      name : 'luxe_empty',
-      package : 'com.Rich Searle.course'
+      name : '____',
+      package : 'com.hypertrifle.____'
     },
 
     build : {
       dependencies : {
         luxe : '*',
+      },
+
+      post : {
+        name : 'post-shell-hook',
+        desc : 'just runs post-hook.sh and logs the output to the logs folder.',
+        script : 'hooks/post-hook.js',
+      },
+      pre : {
+        name : 'pre-shell-hook',
+        desc : 'just runs pre-hook.sh and logs the output to the logs folder.',
+        script : 'hooks/pre-hook.js',
       }
+
     },
 
     files : {
